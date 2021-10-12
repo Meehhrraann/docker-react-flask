@@ -27,14 +27,14 @@ CMD [ "python", "app.py" ]
 ```
 </details>
 
-<details><summary>4. requirements.txt file</summary>
+<details><summary>2. requirements.txt file</summary>
 
 ```js
 FLASK==1.1.2  
 ```  
 </details>
 
-<details><summary>2. flask</summary>
+<details><summary>3. flask</summary>
 
 ```js
 
@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
 ```
 </details>
-<details><summary>3. react Dockerfile</summary>
+<details><summary>4. react Dockerfile</summary>
 
 ```js
 FROM node:14-slim 
@@ -79,7 +79,7 @@ CMD ["npm", "start"]
 ```  
 </details>
 
-<details><summary>4. react .dockerignore</summary>
+<details><summary>5. react .dockerignore</summary>
 
 ```js
 
@@ -98,7 +98,7 @@ node_modules
 ```
 </details>
 
-<details><summary>5. react</summary>
+<details><summary>6. react</summary>
 
 ```js
 import React, { useState, useEffect } from "react";
@@ -149,7 +149,7 @@ export default App;
 
 ```  
 </details>
-<details><summary>6. proxy configuration</summary>
+<details><summary>7. proxy configuration</summary>
 
 ```js
 //package.json
@@ -159,7 +159,7 @@ export default App;
   "proxy": "http://server:5000/",
 ```
 </details>
-<details><summary>7. docker-compose.yml file</summary>
+<details><summary>8. docker-compose.yml file</summary>
 
 ```js
 version: "3.9"
@@ -183,5 +183,5 @@ services:
   
 ```  
 </details>
-<details><summary>7. docker-compose up</summary></details>
-<details><summary>8. check http://localhost:3000/</summary></details>
+<details><summary>9. docker-compose up</summary></details>
+<details><summary>10. check http://localhost:3000/</summary></details>
